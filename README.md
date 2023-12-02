@@ -30,7 +30,7 @@ The factory design pattern is utilized to create instances of different filesyst
 
 ## Sample Application Execution
 
-Below is a sample execution of the application, demonstrating the initialization, operation, and deinitialization process:
+Below is a sample execution of the application, demonstrating the initialisation, operation, and deinitialisation process:
 
 ```
 [2023-12-02 14:25:49 application_init]: Application initialising.    
