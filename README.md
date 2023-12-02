@@ -6,6 +6,7 @@ This is a simple C demonstration application that showcases the use of the facto
 
 - [Introduction](#introduction)
 - [Project Structure](#project-structure)
+- [Sample Application Execution](#sample-application-execution)
 
 ## Introduction
 
@@ -26,3 +27,22 @@ The factory design pattern is utilized to create instances of different filesyst
 - **`container_of.h`**: Header file defining a macro for obtaining a pointer to the containing structure.
 - **`application.h`**: Header file for the main application structure.
 - **`application.c`**: Implementation file for the main application, demonstrating the usage of the factory design pattern.
+
+## Sample Application Execution
+
+Below is a sample execution of the application, demonstrating the initialization, operation, and deinitialization process:
+
+```
+[2023-12-02 14:25:49 application_init]: Application initialising.    
+[2023-12-02 14:25:49 application_init]: Application initialised.     
+[2023-12-02 14:25:49 application_run]: Application running.
+[2023-12-02 14:25:49 filesystem_ntfs_open_file]: Opening file (NTFS).
+[2023-12-02 14:25:49 filesystem_ntfs_close_file]: Closing file (NTFS).
+[2023-12-02 14:25:49 application_run]: Application ran.
+[2023-12-02 14:25:49 application_deinit]: Application deinitialising. 
+[2023-12-02 14:25:49 filesystem_ntfs_free]: Freeing filesystem (NTFS).
+[2023-12-02 14:25:49 filesystem_ntfs_free]: Freed filesystem (NTFS).  
+[2023-12-02 14:25:49 application_deinit]: Application deinitialised.
+```
+
+This section provides a glimpse into the flow of the application, its key steps and corresponding log entries.
